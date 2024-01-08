@@ -37,7 +37,7 @@ JavaScript: Enhances interactivity and dynamic content.
 ### How to Run the Website
 Clone the repository:
 ```
-bash
+`bash`
 Copy code
 git clone https://github.com/yourusername/church-website.git
 ```
@@ -59,3 +59,13 @@ Acknowledgments
 Special thanks to Unsplash for providing high-quality, royalty-free images.
 Icons used from FontAwesome.
 Feel free to customize the content, design, and structure according to your church's needs.
+
+## Contact
+
+- Email: [oluwadamilola.william@gmail.com](mailto:oluwadamilola.william@gmail.com)
+- LinkedIn: [Oluwadamilola's LinkedIn Profile](https://www.linkedin.com/in/oluwadamilolaxajayi)
+- GitHub: [Dodo Miyake on GitHub](https://github.com/dodomiyake)
+
+Looking forward to connecting with you!
+
+---
