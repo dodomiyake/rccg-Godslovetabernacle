@@ -78,7 +78,7 @@ header {
   }
 
   .navbar .btn{
-    color: #fff;
+    color: #000000;
     font-size: 20px;
     cursor: pointer;
     display: none;
@@ -125,7 +125,7 @@ header {
     background: #242526;
   }
   ::-webkit-scrollbar-thumb {
-    background: #3A3B3C;
+    background: #3c3a3a;
   }
   #menu-btn:checked ~ .navlist{
     left: 0%;
@@ -157,6 +157,9 @@ header {
     transition: all 0.3s ease;
   }
   #showDrop:checked ~ .drop-menu{
+    max-height: 100%;
+  }
+  #showDropMinistries:checked ~ .drop-menu{
     max-height: 100%;
   }
   .navlist .desktop-item{
