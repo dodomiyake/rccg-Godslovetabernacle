@@ -67,4 +67,8 @@ Feel free to customize the content, design, and structure according to your chur
 
 Looking forward to connecting with you!
 
+```bash
+git clone https://github.com/yourusername/church-website.git
+
+
 ---
