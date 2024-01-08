@@ -4,15 +4,15 @@
 This project is a simple and responsive church website built using HTML, CSS, and JavaScript. The purpose of the website is to provide information about the church, its services, events, and to engage with the community.
 
 ## Features
-### Home Page:
+#### Home Page:
 
 Welcome message and brief introduction to the church.
 Featured events or upcoming services.
 
-### About Us:
+#### About Us:
 
 Detailed information about the church's history, mission, and values.
-### Services:
+#### Services:
 
 Schedule of regular services and special events.
 Details about each service and its purpose.
@@ -34,11 +34,10 @@ HTML5: Markup language for structuring content.
 CSS3: Styling for a visually appealing design.
 JavaScript: Enhances interactivity and dynamic content.
 
-### How to Run the Website
+### Installation
 Clone the repository:
 ```
-`bash`
-Copy code
+bash
 git clone https://github.com/yourusername/church-website.git
 ```
 Open the index.html file in your preferred web browser.
