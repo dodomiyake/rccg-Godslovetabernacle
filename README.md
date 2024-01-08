@@ -47,10 +47,10 @@ Open the index.html file in your preferred web browser.
 If you'd like to contribute to the development of this website, please follow these steps:
 
 Fork the repository.
-Create a new branch (git checkout -b feature/your-feature-name).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/your-feature-name).
-Open a pull request.
+1. Create a new branch `git checkout -b feature/your-feature-name`.
+2. Commit your changes `git commit -m 'Add some feature`.
+3. Push to the branch `git push origin feature/your-feature-name`.
+4. Open a pull request.
 
 ## License
 This project is licensed under the MIT License.
