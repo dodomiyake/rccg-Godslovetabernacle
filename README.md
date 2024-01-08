@@ -37,7 +37,7 @@ JavaScript: Enhances interactivity and dynamic content.
 ### Installation
 Clone the repository:
 
-```
+```bash
 git clone https://github.com/yourusername/church-website.git
 ```
 Open the index.html file in your preferred web browser.
