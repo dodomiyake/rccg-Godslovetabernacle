@@ -295,7 +295,7 @@ nav input {
     gap: 50px;
   }
 
-  .justchecking {
+  .justchecking, .about {
     width: 700px;
     color: white;
     display: flex;
@@ -304,15 +304,14 @@ nav input {
     align-items: center;
     gap: 20px;
     padding: 30px;
-    margin-top: 50px;
   }
   
-  .justchecking h1 {
+  .justchecking .about h1 {
     font-size: 40px;
     line-height: 40px;
   }
 
-  .justchecking p {
+  .justchecking .about p {
     line-height: 25px;
   }
 
