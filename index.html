@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Welcome to RCCG Gods Love Tabernacle</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./images/site.webmanifest">
+    <title>Welcome to RCCG God's Love Tabernacle</title>
 </head>
 
 <body>
@@ -19,7 +23,7 @@
                     <img src="./images/rccglogo.png" alt="RCCG Logo">
                     <div>
                         <h1>The Redeemed Christian Church of God</h1>
-                        <h1>Gods Love Tabernacle</h1>
+                        <h1>God's Love Tabernacle</h1>
                     </div>
                 </a>
             </div>
@@ -28,10 +32,20 @@
 
             <ul class="navlist">
                 <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-                <li><a href="">Home</a></li>
-                <li><a href="">About Us</a></li>
+                <li><a href="#">Home</a></li>
                 <li>
-                    <a href="" class="desktop-item">Services</a>
+                    <a href="#aboutus" class="desktop-item">About Us</a>
+                    <input type="checkbox" id="showDropAboutus">
+                    <label for="showDropAboutus" class="mobile-item">About Us</label>
+                    <ul class="drop-menu">
+                        <li><a href="#">Mission & Vision</a></li>
+                        <li><a href="#">Our Beliefs</a></li>
+                        <li><a href="#">Core Values</a></li>
+                        <li><a href="#">Our History</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="desktop-item">Services</a>
                     <input type="checkbox" id="showDrop">
                     <label for="showDrop" class="mobile-item">Services</label>
                     <ul class="drop-menu">
@@ -42,7 +56,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="" class="desktop-item">Ministries</a>
+                    <a href="#" class="desktop-item">Ministries</a>
                     <input type="checkbox" id="showDropMinistries">
                     <label for="showDropMinistries" class="mobile-item">Ministries</label>
                     <ul class="drop-menu">
@@ -52,19 +66,53 @@
                         <li><a href="#">Drop menu 4</a></li>
                     </ul>
                 </li>
-                <li><a href="">Events</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
             <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
         </nav>
     </header>
 
+    <main>
+        <section id="landing">
+            <div class="justchecking">
+                <h1>Welcome to God's love tabernacle</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, ipsa? A possimus nesciunt quia cumque
+                    vero
+                    excepturi dignissimos voluptas dicta dolorem nam doloremque, molestias, minima, praesentium
+                    quibusdam
+                    obcaecati eligendi delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, ipsa? A
+                    possimus nesciunt quia cumque vero
+                    excepturi dignissimos voluptas dicta dolorem nam doloremque, molestias, minima, praesentium
+                    quibusdam
+                    obcaecati eligendi delectus! </p>
+            </div>
+
+        </section>
+        <section id="aboutus">
+            <div class="about">
+                <h1>Welcome to God's love tabernacle</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, ipsa? A possimus nesciunt quia cumque
+                    vero
+                    excepturi dignissimos voluptas dicta dolorem nam doloremque, molestias, minima, praesentium
+                    quibusdam
+                    obcaecati eligendi delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, ipsa? A
+                    possimus nesciunt quia cumque vero
+                    excepturi dignissimos voluptas dicta dolorem nam doloremque, molestias, minima, praesentium
+                    quibusdam
+                    obcaecati eligendi delectus! </p>
+            </div>
+
+        </section>
+    </main>
 
 
 
 
 
-    <footer></footer>
+    <footer>
+        <p>&copy; 2023 Oluwadamilola Ajayi | Front-End Developer</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 
