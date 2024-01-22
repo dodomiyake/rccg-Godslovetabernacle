@@ -35,7 +35,7 @@ Welcome to the official website of RCCG Gods Love Tabernacle! This platform is d
 
 ## How to Access
 
-To view our website, simply [click here]([#insert-your-website-url](https://dodomiyake.github.io/rccg-Godslovetabernacle/)).
+To view our website, simply [click here](https://dodomiyake.github.io/rccg-Godslovetabernacle/).
 
 ![image](https://github.com/dodomiyake/rccg-Godslovetabernacle/assets/70576110/96a54182-efe6-49ea-87f8-91cda2a5f5ee)
 
