@@ -286,7 +286,7 @@ nav input {
 .ouryear {
   width: 90%;
   height: 100%;
-  line-height: 29px;  
+  line-height: 28px;  
   overflow: auto; 
 }
 
@@ -297,6 +297,11 @@ nav input {
 .ouryear span{
   font-size: 20px;
   font-style: italic;
+  margin-top: 20px;
+}
+
+.ouryear p{
+  font-size: 15px;
 }
 
 
