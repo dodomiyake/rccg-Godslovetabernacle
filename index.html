@@ -75,35 +75,94 @@
 
     <main>
         <section id="landing">
-            <div class="justchecking">
-                <h1>Welcome to God's love tabernacle</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, ipsa? A possimus nesciunt quia cumque
-                    vero
-                    excepturi dignissimos voluptas dicta dolorem nam doloremque, molestias, minima, praesentium
-                    quibusdam
-                    obcaecati eligendi delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, ipsa? A
-                    possimus nesciunt quia cumque vero
-                    excepturi dignissimos voluptas dicta dolorem nam doloremque, molestias, minima, praesentium
-                    quibusdam
-                    obcaecati eligendi delectus! </p>
-            </div>
+            <div id="slider-wrap">
 
+                <ul id="slider">
+                    <li class="slide showing"
+                        style="background: url('./images/img1.jpg') no-repeat center center; background-size: cover;">
+                        <h1>Welcome to God's Love Tabernacle</h1>
+                        <p>God's love is an everlasting embrace, a constant flame flickering within us, guiding us
+                            through darkness and illuminating every path we take.
+                            Like the boundless sky above, God's love stretches beyond understanding, showering grace
+                            upon us, whispering hope even in the quietest corners of our hearts. </p>
+                    </li>
+                    <li class="slide" data-nav-color="#000"
+                        style="background: url('./images/img2.jpg') no-repeat center center; background-size: cover;">
+                        <h1>Theme for January 2024</h1>
+                        <h2>Our month of Greater Heights</h2>
+                        <p>Ps. 18:33- He maketh my feet like hinds' feet, and setteth me upon my high places.</p>
+                    </li>
+                    <li class="slide"
+                        style="background: url('./images/img3.jpg') no-repeat center center; background-size: cover;">
+                        <h1>Sunday School</h1>
+                        <p>RCCG GLT Sunday School enriches believers with profound biblical insights, promoting
+                            spiritual
+                            growth through interactive teachings, discussions, and practical applications in a welcoming
+                            community setting. </p>
+                    </li>
+                    <li class="slide"
+                        style="background: url('./images/img4.jpg') no-repeat center center; background-size: cover;">
+                        <h1>Sunday Worship Service</h1>
+                        <p>RCCG GLT Sunday Worship is a weekly congregation marked by passionate praise, worship, and
+                            impactful sermons. It creates a spiritual atmosphere for believers to connect, grow, and
+                            experience the transformative power of faith.</p>
+                    </li>
+                    <li class="slide"
+                        style="background: url('./images/img5.jpg') no-repeat center center; background-size: cover;">
+                        <h1>Tuesday Bible Study/Prayer Meeting</h1>
+                        <p>RCCG GLT Tuesday Bible Study/Prayer Meeting is a dedicated gathering for in-depth biblical
+                            exploration and fervent prayers. It fosters spiritual growth, community, and a deeper
+                            understanding of God's Word through shared insights and supplications.</p>
+                    </li>
+                </ul>
+
+                <button id="prev" onclick="prev();">Prev</button>
+                <button id="next" onclick="next();">Next</button>
+
+                <div id="slider-dots">
+                </div>
+            </div>
         </section>
+
         <section id="aboutus">
             <div class="about">
-                <h1>Welcome to God's love tabernacle</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, ipsa? A possimus nesciunt quia cumque
-                    vero
-                    excepturi dignissimos voluptas dicta dolorem nam doloremque, molestias, minima, praesentium
-                    quibusdam
-                    obcaecati eligendi delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, ipsa? A
-                    possimus nesciunt quia cumque vero
-                    excepturi dignissimos voluptas dicta dolorem nam doloremque, molestias, minima, praesentium
-                    quibusdam
-                    obcaecati eligendi delectus! </p>
+                <div class="welcome">
+                    <h1>Welcome to GLT</h1>
+                    <div class="youtube-container">
+                        <!-- Your YouTube iframe code here -->
+                        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/geRe1uHRmGQ" title=""
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen></iframe></p>
+                    </div>
+                </div>
+                <div class="ouryear">
+                    <h1>YEAR 2024: OUR YEAR OF TRUE GREATNESS <br> <span>- Psalm 71:21</span></h1>
+                    <p>The theme of True Greatness unfolds in RCCG GLT's focus, rooted in Psalms 71:21's promise of
+                        increased greatness and divine comfort. The pursuit of True Greatness involves intentional
+                        prayer, echoing Jabez's request in 1 Chronicles 4:10, and underscores the importance of
+                        humility, as exemplified by John the Baptist. Humility is portrayed through acceptance of divine
+                        mandates and recognizing one's role.
+                        Associating with the blessed is deemed pivotal for True Greatness, drawing parallels with
+                        Joseph's impact on the Egyptians and Jacob's influence on Laban. Proverbs 27:17 emphasizes the
+                        positive influence of being surrounded by the blessed.
+                        Expectancy is highlighted as essential, aligned with Proverbs 16:1, acknowledging human
+                        preparation guided by divine response. Acts of charity, following Jesus' directive in Matthew
+                        25:35-45, are celebrated as contributors to True Greatness.
+                        The summary concludes with a call to prayer and righteousness, emphasizing spiritual dimensions
+                        in the pursuit of True Greatness. These words inspire the RCCG GLT community to
+                        align their aspirations with the divine promise of lasting and joyous success.</p>
+                </div>
             </div>
-
         </section>
+
+
+
+
+        <section id="contactus">
+            
+        </section>
+
     </main>
 
 
@@ -111,9 +170,9 @@
 
 
     <footer>
-        <p>&copy; 2023 Oluwadamilola Ajayi | Front-End Developer</p>
+        <p>Copyright &copy; 2024 God's Love Tabernacle | Website Designed by Mike Andre Tech Solutions</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

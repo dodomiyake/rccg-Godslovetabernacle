@@ -99,70 +99,216 @@ nav input {
   position: relative;
   height: calc(100vh - 110px);
   width: 100%;
-  background-image: url("../images/img1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 50px;
   top: 110px;
 }
 
-.justchecking {
+#slider-wrap {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  height: calc(100vh - 110px);
+}
+
+#slider-wrap:after {
+  padding-top: 40%;
+  display: block;
+  content: '';
+
+}
+
+#slider-wrap button {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: 0;
+  user-select: none;
+  padding: 5px 5px 30px;
+  background: transparent;
+  border: 0;
+  border-top: 1px solid #fff;
+  transition: all 75ms ease-in;
+}
+
+#slider-wrap button:hover {
+  border-top-width: 8px;
+}
+
+#slider-wrap .dark {
+  color: black;
+}
+
+#prev {
+  position: absolute;
+  bottom: 1vw;
+  left: 2vw;
+  z-index: 9;
+}
+
+#next {
+  position: absolute;
+  bottom: 1vw;
+  right: 2vw;
+  z-index: 2;
+}
+
+#slider {
+  background: #e1e1e1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+#slider h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+#slider p {
+  color: #fff;
   width: 700px;
-  color: white;
+  font-size: 18px;
+}
+
+#slider li:nth-child(2) h2 {
+  color: lightsalmon;
+  margin-bottom: 15px;
+}
+
+#slider li:nth-child(3) p {
+  color: whitesmoke;
+}
+
+#slider h1,
+#slider h2,
+#slider p {
+  text-align: left;
+  /* Align text to the left */
+  margin-left: 50px;
+}
+
+.slide {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 20px;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
 }
 
-.justchecking h1 {
-  font-size: 40px;
-  line-height: 40px;
+.showing {
+  opacity: 1;
+  z-index: 2;
 }
 
-.justchecking p {
-  line-height: 25px;
+#slider-dots {
+  position: absolute;
+  bottom: 30px;
+  z-index: 2;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
+#slider-dots span {
+  border: 1px solid #fff;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+  border-radius: 50px;
+  float: left;
+  display: block;
+  margin: 0 2px;
+  transition: all 75ms ease-in;
+}
+
+#slider-dots span:hover, #slider-dots span.active {
+  background: #fff;
+}
 
 #aboutus {
   position: relative;
   height: calc(100vh - 110px);
   width: 100%;
-  background-image: url("../images/img2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
   top: 110px;
+  background-color: #f1f1f1;
 }
 
 .about {
-  width: 700px;
-  color: white;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 20px;
+  width: 90%;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  height: 80%;
 }
 
-.about p {
-  line-height: 25px;
+.welcome {
+  width: 90%;
+  height: 100%;
+}
+
+.welcome h1 {
+  margin-bottom: 20px;
+}
+
+.youtube-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.youtube-container iframe {
+  width: 95%; /* Make the iframe responsive */
+  height: 90%;
+}
+
+.ouryear {
+  width: 90%;
+  height: 100%;
+  line-height: 29px;  
+  overflow: auto; 
+}
+
+.ouryear h1{
+  margin-bottom: 15px;
+}
+
+.ouryear span{
+  font-size: 20px;
+  font-style: italic;
 }
 
 
 
-
-
-
-
+footer {
+  position: relative; /* Change fixed to absolute */
+  bottom: -100px;
+  width: 100%;
+  text-align: center;
+  background-color: #ddd;
+  padding: 10px 0;
+}
 
 
 
@@ -173,7 +319,7 @@ nav input {
   body {
     overflow-x: hidden;
   }
-  
+
   .navbar .btn {
     display: block;
   }
@@ -241,7 +387,7 @@ nav input {
     box-shadow: none;
     transition: all 0.3s ease;
   }
-  
+
   #showDropAboutus:checked~.drop-menu {
     max-height: 100%;
   }
@@ -283,36 +429,53 @@ nav input {
     font-size: 18px;
   }
 
-  #landing {
-    height: 100vh;
-    width: 100vw;
-    background-image: url("../images/img1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+  #slider p {
+    width: 80%;
   }
 
-  .justchecking, .about {
-    width: 700px;
-    color: white;
+  .about {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 30px;
-  }
-  
-  .justchecking .about h1 {
-    font-size: 40px;
-    line-height: 40px;
+    width: 100%;
+    gap: 60px;
   }
 
-  .justchecking .about p {
-    line-height: 25px;
+  .ouryear p{
+    overflow-wrap: break-word;
   }
+ 
+
+}
+
+@media screen and (max-width: 520px) {
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+
+  }
+
+  .logo a h1 {
+    font-size: 10px;
+
+  }
+
+  #slider {
+    padding-left: 20px;
+    /* Adjust left padding */
+    padding-right: 20px;
+    /* Add right padding to limit the width */
+  }
+
+  #slider h1,
+  #slider h2,
+  #slider p {
+    text-align: center;
+  }
+
+ 
+
+  
 
 }
