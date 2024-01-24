@@ -305,9 +305,78 @@ nav input {
 }
 
 
+#dailybibleverse {
+  background-color: #001f75;
+  position: relative;
+  height: calc(100vh - 110px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 110px;
+}
+
+.dailybibleverse {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  height: 80%;
+  gap: 50px;
+  text-align: center;
+}
+
+.verseoftheday {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  height: 30%;
+  gap: 30px;
+}
+
+.verseoftheday h1 {
+  font-size: 45px;
+  color: white;
+}
+
+.bibleimg {
+  width: 100%;
+  height: 100%;
+}
+
+.bibleimg img {
+  width: 100%;
+  height: 100%;
+}
+
+#dailyVersesWrapper {
+  background-color: blanchedalmond;
+  height: 100%;
+}
+
+.bibleText {
+  font-size: 20px;
+}
+
+.dailyVerses.bibleVerse {
+  color: crimson;
+  margin-top: .5em;
+}
+
+.dailyVerses.bibleVerse a {
+  font-weight: bold;
+}
+
+.dailyVersaes a{
+  font-size: 15px;
+}
 
 footer {
-  position: relative; /* Change fixed to absolute */
+  position: relative;
+  /* Change fixed to absolute */
   bottom: -100px;
   width: 100%;
   text-align: center;
@@ -445,10 +514,19 @@ footer {
     gap: 60px;
   }
 
-  .ouryear p{
+  .ouryear p {
     overflow-wrap: break-word;
   }
- 
+
+  .dailybibleverse {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .verseoftheday {
+    width: 100%;
+  }
+
 
 }
 
@@ -479,8 +557,8 @@ footer {
     text-align: center;
   }
 
- 
 
-  
+
+
 
 }
