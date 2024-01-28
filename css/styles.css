@@ -322,7 +322,7 @@ nav input {
   width: 90%;
   margin: 0 auto;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
   height: 80%;
   gap: 50px;
   text-align: center;
@@ -334,7 +334,6 @@ nav input {
   justify-content: center;
   padding: 20px;
   width: 100%;
-  height: 30%;
   gap: 30px;
 }
 
@@ -354,7 +353,7 @@ nav input {
 }
 
 #dailyVersesWrapper {
-  background-color: blanchedalmond;
+  background-color: #ffffff;
   height: 100%;
 }
 
