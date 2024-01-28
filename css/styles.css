@@ -556,6 +556,7 @@ footer {
   #slider h2,
   #slider p {
     text-align: center;
+    margin: 0 auto;
   }
 
 
