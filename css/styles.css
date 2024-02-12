@@ -481,7 +481,7 @@ nav input {
 }
 
 .goimg {
-  background-image: url("/images/eadeboye.jpeg");
+  background-image: url("../images/eadeboye.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
