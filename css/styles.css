@@ -956,7 +956,11 @@ footer {
     width: 100%;
   }
 
-  /* About us start */
+  .watchthisspace {
+    width: 100%;
+  }
+
+  /* section start */
   .sectioncontainer {
     display: flex;
     flex-direction: column;
@@ -975,7 +979,7 @@ footer {
   }
   
   
-  /* About us end */
+  /* section us end */
 
 }
 
