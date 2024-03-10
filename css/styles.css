@@ -390,7 +390,6 @@ nav input {
   align-items: center;
   gap: 50px;
   top: 110px;
-  background-color: #f1f1f1;
 }
 
 .theteam {
@@ -457,8 +456,35 @@ nav input {
 
 .zoomlink {
   width: 25%;
-  height: 100%;
-  background-color: deeppink;
+  color: #1e3c72;
+}
+
+.zoomlink h3 {
+  color: black;
+  margin-top: 20px;
+}
+
+.zoomlink p:first-of-type{
+  color: black;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.zoomlink p a {
+  margin-top: 5%;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1.84;
+    letter-spacing: 0.0625em;
+    text-align: center;
+    color: #000;
+    border-radius: 4px;
+    padding: 12px 30px 17px;
+    background-color: chocolate;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 #aboutrccg {
@@ -561,17 +587,30 @@ nav input {
 .donation {
   width: 40%;
   height: 100%;
-  background-color: #1e3c72;
 }
 
 .donation h1{
-  color: white;
+  color: #1e3c72;
+}
+
+.donation p{
+  color: #1e3c72;
+}
+
+.donation h3{
+  margin-top: 15px;
+  color: chocolate;
+}
+
+.donation ul li{
+  color: #1e3c72;
+  margin-top: 10px;
 }
 
 .donationline {
   margin-top: 20px;
   margin-bottom: 25px;
-  width: 18%;
+  width: 15%;
   height: 1.5%;
   background-color: chocolate;
 }
@@ -589,6 +628,113 @@ footer {
   padding: 10px 0;
 }
 
+
+
+/* section start */
+#sectionlanding {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;  
+  top: 110px;
+  background-color: #e4e4e4;
+}
+
+.sectioncontainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  margin: 60px 0;
+}
+
+.sectionclassone {
+  width: 60%;
+}
+
+.sectionclassone h1 {
+  color: #1e3c72;
+}
+
+.sectionclasstwo {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+
+.sectionline {
+  margin: 15px 0;
+  width: 15%;
+  height: 8px;
+  background-color: chocolate;
+}
+
+.sectionclasstwo h1 {
+  color: #1e3c72;
+}
+
+.sectionclasstwo p:nth-of-type(2) {
+  color: #1e3c72;
+  font-size: 15px;
+}
+
+.sectionservicedays {
+  line-height: 2;
+}
+
+.sectionzoomlink {
+  width: 100%;
+  color: #1e3c72;
+  margin-top: 30px;
+}
+
+.sectionzoomlink h3 {
+  color: black;
+  margin-top: 40px;
+}
+
+.sectionzoomlink p:first-of-type{
+  color: black;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.sectionzoomlink p a {
+  margin-top: 5%;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1.84;
+    letter-spacing: 0.0625em;
+    text-align: center;
+    color: #000;
+    border-radius: 4px;
+    padding: 12px 30px 17px;
+    background-color: chocolate;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.bullet-points li {
+  margin-top: 30px;
+}
+
+.bullet-points li:nth-of-type(5) {
+  color: #3f4183;
+}
+
+.bullet-points li:before {
+  content: "\2020"; /* Unicode character for bullet point */
+  color: #000; /* Bullet point color */
+  font-size: 1.5em; /* Bullet point size */
+  margin-right: 0.5em; /* Spacing between bullet point and text */
+}
+
+
+
+/* section end */
 
 
 
@@ -744,12 +890,11 @@ footer {
 
   #theteam {
     width: 100%;
-    height: 210vh;
+    height: 250vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    top: 110px;
+    top: 100px;
   }
 
   .theteam {
@@ -770,6 +915,7 @@ footer {
   }
 
   .servicetime {
+    margin-top: 30px;
     padding-left: 60px;
   }
 
@@ -792,6 +938,11 @@ footer {
     width: 100%;
   }
 
+  .zoomlink {
+    padding: 0 60px;
+    gap: 30px;
+  }
+
   #contactus {
     height: 150vh;
   }
@@ -806,11 +957,33 @@ footer {
 
   .address {
     width: 100%;
+    margin-top: 40px;
   }
 
   .donation {
     width: 100%;
   }
+
+  /* About us start */
+  .sectioncontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .sectionclassone {
+    width: 90%;
+  }
+  
+  .sectionclasstwo {
+    width: 90%;
+    margin-top: 30px;
+  }
+  
+  
+  /* About us end */
 
 }
 
