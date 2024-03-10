@@ -170,13 +170,21 @@ nav input {
 #slider h1 {
   color: #fff;
   font-size: 40px;
-  margin-bottom: 15px;
 }
 
 #slider p {
   color: #fff;
   width: 700px;
   font-size: 18px;
+}
+
+#slider p:nth-of-type(2) {
+  margin-top: 10px;
+}
+
+#slider p:nth-of-type(3) {
+  margin-top: 10px;
+  color: #ff8d63;
 }
 
 #slider li:nth-child(2) h2 {
@@ -885,7 +893,8 @@ footer {
 
   .ouryear p {
     overflow-wrap: break-word;
-    line-height: 1.62;
+    line-height: 2;
+    width: 90%;
   }
 
   #dailybibleverse {
@@ -1029,10 +1038,7 @@ footer {
   }
 
 
-  #aboutus {
-    height: 65rem;
-  }
-
+  
 
 
 }
