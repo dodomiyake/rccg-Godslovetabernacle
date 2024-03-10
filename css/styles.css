@@ -719,6 +719,7 @@ footer {
 
 .bullet-points li {
   margin-top: 30px;
+  padding-left: 1.5em;
 }
 
 .bullet-points li:nth-of-type(5) {
