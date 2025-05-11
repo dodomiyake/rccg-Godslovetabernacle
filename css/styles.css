@@ -309,8 +309,8 @@ nav input {
 }
 
 .ouryear p {
-  font-size: 0.94em;
-  line-height: 1.55;
+  font-size: 1.1em;
+  line-height: 1.8 !important;
 }
 
 
@@ -527,6 +527,7 @@ nav input {
 .rccg {
   width: 50%;
   height: 100%;
+  overflow: auto;
 }
 
 .rccg h1 {
@@ -536,7 +537,8 @@ nav input {
 
 .rccg p {
   margin-top: 25px;
-  font-size: 15px;
+  font-size: 1.1em;
+  line-height: 1.5 !important;
   color: whitesmoke
 }
 
